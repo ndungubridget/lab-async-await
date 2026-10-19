@@ -1,3 +1,4 @@
+
 const url = "https://jsonplaceholder.typicode.com/posts";
 
 async function fetchPosts() {
@@ -8,7 +9,7 @@ async function fetchPosts() {
 }
 
 function displayPosts(posts) {
-    const postList = document.getElementById("#post-list");
+    const postList = document.getElementById("post-list");
 
     posts.forEach(function(post) {
         const li = document.createElement("li");
